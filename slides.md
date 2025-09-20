@@ -76,6 +76,7 @@ ol {
 ---
 
 # Worum geht es?
+Trotz dem, dass meine Firma nicht geklappt hat, ist niemand mad. Warum?
 
 <style>
 ol {
@@ -90,11 +91,11 @@ ol {
     a. 🦄
 4. Product Market Fit
 5. Investment
-6. Welche Probleme gibt es im Moment?
 
 <div class="flex items-center gap-2 align-center mt-4">
 <i class="light-icon-arrow-right flex"></i> Mein Versprechen: Wenn ihr das versteht, versteht ihr den Tech-Sektor <b><u>viel</u></b> besser.
 </div>
+
 
 ---
 layout: dynamic-image
@@ -290,3 +291,7 @@ Was ist ein Einhorn (aus VC perspektive)?
  ✨🌈🦄<div style="transform: scaleX(-1)">🌈</div>✨
 </div>
 <div class="text-center text-white/20z text-sm">unicode unicorn</div>
+
+---
+src: ./part2.md
+---
