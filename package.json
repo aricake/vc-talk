@@ -1,0 +1,21 @@
+{
+  "name": "vc",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.1.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "monaco-editor": "^0.53.0",
+    "slidev-theme-light-icons": "^1.0.2",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^4.1.13",
+    "vue": "^3.5.21"
+  },
+  "packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa"
+}

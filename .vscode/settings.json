@@ -1,0 +1,9 @@
+{
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "tailwindCSS.includeLanguages": {
+    "markdown": "markdown"
+  },
+  "slidev.port": 3030
+}
