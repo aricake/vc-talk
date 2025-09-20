@@ -11,10 +11,6 @@ equal: true
 image: https://images.unsplash.com/photo-1659941983952-7a35d58d3189?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
-<style>
-  @import "tailwindcss";
-</style>
-
 <div class="absolute bottom-8 left-12 ">
   <div class="text-5xl text-white text-opacity-60" style="font-weight:600;" >
     Wie funktioniert eigentlich
@@ -36,7 +32,8 @@ image: https://images.unsplash.com/photo-1659941983952-7a35d58d3189?q=80&w=1740&
 - Gründer von mehreren Startups
   - 2015 erstes Startup gegründet
     <img src="./assets/ip.png" class="h-40 filter-invert">
-  - Seit dem bei 4 Startups gearbeitet
+  - Seit dem bei 4 Startups gearbeitet (2 davon meine)
+  - War bei TechStars
   - In 2022 insegesamt ~$4.000.000 USD an seed-funding erhalten
   - Das Startup existiert nicht mehr 💸
 
@@ -68,6 +65,12 @@ image: https://images.unsplash.com/photo-1659941983952-7a35d58d3189?q=80&w=1740&
 
 # Gliederung
 
+<style>
+ol {
+  list-style-type: decimal;
+  padding-left: 2rem;
+}
+</style>
 1. Gliederung vorstellen
 
 ---
@@ -77,13 +80,14 @@ image: https://images.unsplash.com/photo-1659941983952-7a35d58d3189?q=80&w=1740&
 <style>
 ol {
   list-style-type: decimal;
-
+  padding-left: 2rem;
 }
 </style>
 
 1. Was ist ein Startup?
 2. Wer zahlt das Geld? Was ist eine VC?
-3. Warum? (Mathematik!)
+3. Warum? <br>
+    a. 🦄
 4. Product Market Fit
 5. Investment
 6. Welche Probleme gibt es im Moment?
@@ -148,3 +152,141 @@ layout: center
 ---
 
 # Sonst ist es kein Startup.
+
+---
+
+# Geld
+
+> Global VC investment rose from $349.4 billion across 43,320 deals in 2023 to $368.3 billion across 35,684 deals in 2024
+
+Da wurden **313 Milliarden Euro** investiert. Vergleich: Steuereinahmen vom Bund
+
+![alt text](./assets/haushalt.png)
+
+---
+
+<img src="./assets/slides/Frame 1.png" class="absolute left-0 top-0 w-full" />
+<img v-click src="./assets/slides/Frame 2.png" class="absolute left-0 top-0 w-full" />
+<img v-click src="./assets/slides/Frame 3.png" class="absolute left-0 top-0 w-full" />
+<img v-click src="./assets/slides/Frame 4.png" class="absolute left-0 top-0 w-full" />
+<img v-click src="./assets/slides/Frame 5.png" class="absolute left-0 top-0 w-full" />
+<img v-click src="./assets/slides/Frame 6.png" class="absolute left-0 top-0 w-full" />
+
+---
+
+# Zusammenfassung
+
+<style>
+ol {
+  list-style-type: decimal;
+  padding-left: 2rem;
+}
+</style>
+
+1. VCs erstellen "Funds"
+2. Leute investieren in den Fund
+3. Der Fund investiert in Startups
+4. Wenn das Startup verkauft wird: $$$ für Fund
+
+---
+
+# Beispiel - Spezifischer Fund
+
+<img src="./assets/a16z.png" class="absolute right-0 top-0 h-20" />
+
+
+<p class="pl-2 text-white/70">
+Die American Dynamism-Praxis investiert in Gründer und Unternehmen, die das nationale Interesse (der USA) unterstützen: Luft- und Raumfahrt, Verteidigung, öffentliche Sicherheit, Bildung, Wohnungswesen, Lieferketten, Industrie und Fertigung. Wir glauben, dass missiongetriebene und zivilgesellschaftlich orientierte Gründer oft Unternehmen aufbauen, die Branchen und Geschäftsmodelle überschreiten, um wichtige nationale Probleme zu lösen. Diese Unternehmen sehen die Regierung als Kunden, Wettbewerber oder wichtigen Stakeholder – und der Erfolg dieser Unternehmen unterstützt das Gedeihen aller Amerikaner. Dynamische Unternehmen existieren in allen 50 Bundesstaaten und haben globale Wirkung.
+</p>
+
+<hr>
+
+<p class="pl-2 text-white/70  text-sm">
+Engl. Original: The American Dynamism practice invests in founders and companies that support the national interest: aerospace, defense, public safety, education, housing, supply chain, industrials, and manufacturing. We believe that mission-driven and civic-minded founders often build companies that transcend verticals and business models in their quest to solve important national problems. These companies view the government as a customer, competitor, or key stakeholder—and the success of these companies supports the flourishing of all Americans. Dynamic companies exist in all 50 states and have a global impact.
+</p>
+
+<hr>
+
+---
+
+# Generische Funds
+
+Viele VCs haben keine themenspezifischen Funds, sondern gruppieren z.B. nach Jahr (YCombinator), oder manchmal (afaik) auch gar nicht.
+
+---
+
+# Warum
+
+Warum investieren die Leute Geld in VCs?
+
+<img v-click src="./assets/money-mr.gif" class="h-100" />
+
+---
+
+# So, das hier ist keine Finanzberatung
+
+Aber schauen wir uns mal eine Exponentialfunktion an:
+
+<img src="./assets/exp.png" class="h-100 invert">
+
+---
+
+# Womit werben VCs?
+
+<img src="./assets/performance.png" class="h-100 invert" />
+
+### https://www.venturecapitai.com/p/25-years-of-outperformance-a-comparative
+
+---
+
+# Aber
+
+<img src="./assets/recent_cohorts.png" class="h-100 " />
+
+### https://carta.com/data/recent-vc-fund-performance-q3-2024/
+
+---
+
+# Naja
+
+<span></span>
+
+Es gibt jedoch Gründe anzunehmen, dass dieser derzeitige Zustand nicht ewig anhalten wird. Investoren sind der Ansicht, dass die in den vergangenen Jahren eingeworbenen Mittel schließlich als einige der attraktivsten Jahrgänge in der Geschichte des Risikokapitals gelten könnten.
+
+<hr>
+
+There’s reason to think, however, that this current state of affairs won’t last forever. Investors believe that funds raised in the past few years might eventually come to be seen as some of the most attractive vintages in venture capital memory.
+
+
+<div class="pt-25"></div>
+
+<v-click >
+Persönlicher Gedanke (ohne harte Zahlen): In den Jahren war schon sehr viel Crypto / Web3 Investment da.
+
+<p class="text-8xl pt-8" v-click>🤔</p>
+</v-click>
+
+---
+
+# Leitgedanke von VC investment
+
+- "Startups, als Assetklasse, outperform normale Aktionfonds."
+  - Wenn man in mehrere Fonds investiert, dann ist das Risiko überchaubar
+  - Medium-Risko, Riesen Gewinne.
+  - Und normalos haben nicht wirklich Zugriff darauf
+
+- Plus: Mann kann sich sogar gut fühlen
+  - Startups schöpfen wert, sie machen die Welt besser
+  - Es ist kein Nullsummenspiel, es muss keine Verlierer geben
+  - Beispiel: Google (Suchmaschine)
+
+---
+
+# Einhörner
+
+Was ist ein Einhorn (aus VC perspektive)?
+
+<div class="text-9xl text-center mt-25 flex align-middle justify-center">
+ ✨🌈🦄<div style="transform: scaleX(-1)">🌈</div>✨
+</div>
+<div class="text-center text-white/20z text-sm">unicode unicorn</div>
