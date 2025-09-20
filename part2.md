@@ -175,3 +175,5 @@ ol {
 # Tja
 
 Es ist schade, dass dieses Mittel nur für eine bestimmte Art an Firmen interessant ist.
+
+Das Modell hat viel Einfluss - aber wenig ist dadrüber im diskurs präsent.

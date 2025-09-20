@@ -27,6 +27,22 @@ image: https://images.unsplash.com/photo-1659941983952-7a35d58d3189?q=80&w=1740&
 
 ---
 
+# VC Startups beiflussen alles in der IT
+
+- Wie wir software bauen (Docker, NextJS, )
+- Wo wir die hosten (GitLab, GitHub)
+- Wie die gemessen wird (Amplitude, Databricks, Snowflake, ...)
+- Wo die Daten sind (Snowflake, ...)
+- Wie die angezeigt werden (Grafana, ...)
+- Testing (Apollo)
+- ...
+
+Aber auch ausserhalb: Facebook, Instagram, Google, YouTube, ...
+
+Trotzdem haben die meisten nur eine schwammige Idee, wie das funktioniert.
+
+---
+
 # Wer?
 
 - Gründer von mehreren Startups
