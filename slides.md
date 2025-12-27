@@ -1,7 +1,7 @@
 ---
 theme: light-icons
 
-title: Wie funktioniert eigentlich VC funding?
+title: How does VC funding work, actually?
 drawings:
   persist: false
 transition: slide-left
@@ -12,87 +12,72 @@ image: https://images.unsplash.com/photo-1659941983952-7a35d58d3189?q=80&w=1740&
 ---
 
 <div class="absolute bottom-8 left-12 ">
-  <div class="text-5xl text-white text-opacity-60" style="font-weight:600;" >
-    Wie funktioniert eigentlich
-  </div>
   <span class="text-6xl text-primary-lighter text-opacity-80" style="font-weight:500;" >
-    VC funding?
+    How does VC funding work, actually?
   </span>
+  <div class="text-3xl text-white text-opacity-60 font-extralight"  >
+    Or: "Money, money, I like money."
+  </div>
 
   <div class="text-2xl text-white/60 mt-8">
-    Mega-Knowledgecamp 2025<br>
+    39c3 - SoS - Day 1<br>
     ari@aricake.eu
   </div>
 </div>
 
 ---
-
-# VC Startups beiflussen alles in der IT
-
-- Wie wir software bauen (Docker, NextJS, )
-- Wo wir die hosten (GitLab, GitHub)
-- Wie die gemessen wird (Amplitude, Databricks, Snowflake, ...)
-- Wo die Daten sind (Snowflake, ...)
-- Wie die angezeigt werden (Grafana, ...)
-- Testing (Apollo)
-- ...
-
-Aber auch ausserhalb: Facebook, Instagram, Google, YouTube, ...
-
-Trotzdem haben die meisten nur eine schwammige Idee, wie das funktioniert.
+src: logos.md
+---
 
 ---
 
-# Wer?
+# Who?
 
-- Gründer von mehreren Startups
-  - 2015 erstes Startup gegründet
-    <img src="./assets/ip.png" class="h-40 filter-invert">
-  - Seit dem bei 4 Startups gearbeitet (2 davon meine)
-  - War bei TechStars
-  - In 2022 insegesamt ~$4.000.000 USD an seed-funding erhalten
-  - Das Startup existiert nicht mehr 💸
+- Founded 2 startups
+- First 2015
+  <img src="./assets/ip.png" class="h-40 filter-invert">
+- Worked for four startups since (2 my own)
+- Attended TechStars, a startup accelerator*
+- Raised ~4 million USD in in 2022
+
+<ul>
+<v-click>
+  <li> ...the startup is dead now 💸</li>
+</v-click>
+<v-click>
+  <li>but that's fine!</li>
+</v-click>
+</ul>
+
 
 ---
 
 # Disclaimer
 
-- Ich bin hier privat
-  - Ich spreche nicht für voherige, aktuelle, oder zukünftige Arbeitgeber, Mitgründer, Kollegen, Investoren oder Friedrich Merz.
+- I'm only representing myself here!
+  - I'm not speaking for previous, current or future employers, co-founders, colleagues, investors, or Friedrich März.
 
 <br>
 
 - "I'm not saying that is how it should be - I'm saying that is how it is"
-  - Es geht darum VCs zu verstehen
-  - Das bedeutet nicht, dass jeder Askpekt gut ist
+  - The goal is to understand VCs
 
 <br>
 
-- "Clever" != "Ethisch korrekt"
-  - Ich werde Dinge als schlau / clever / cool / ... bezeichnen
-  - Das bedeutet auch nicht, dass die ethisch gut sind
+- "Clever" != "Ethical"
 
 <br>
 
-- Vieles vereinfacht
-  - z.B. SAFE / Investment / Convertible Note => Egal
+- I'm simplifying *a lot*
+  - e.G. SAFE vs. Investment vs. Convertible Note => Who cares?
+  - Rule of thumb: if you move more than $10M USD, you're involving lawyers.
+  - Lawyers are just as bad as software engineers at overcomplicating things.
 
 ---
 
-# Gliederung
+# Goal
 
-<style>
-ol {
-  list-style-type: decimal;
-  padding-left: 2rem;
-}
-</style>
-1. Gliederung vorstellen
-
----
-
-# Worum geht es?
-Trotz dem, dass meine Firma nicht geklappt hat, ist niemand mad. Warum?
+My company failed, but nobody's mad - why?
 
 <style>
 ol {
@@ -101,15 +86,16 @@ ol {
 }
 </style>
 
-1. Was ist ein Startup?
-2. Wer zahlt das Geld? Was ist eine VC?
-3. Warum? <br>
+1. What's a startup?
+2. Where does the money come from and go to?
+3. Why? <br>
     a. 🦄
 4. Product Market Fit
 5. Investment
+6. Why VC funding is so cool*
 
 <div class="flex items-center gap-2 align-center mt-4">
-<i class="light-icon-arrow-right flex"></i> Mein Versprechen: Wenn ihr das versteht, versteht ihr den Tech-Sektor <b><u>viel</u></b> besser.
+<i class="light-icon-arrow-right flex"></i> Promise: If you undestand everything in this talk, you'll understand the tech industry <b><u>so much</u></b> more.
 </div>
 
 
@@ -121,62 +107,81 @@ image: https://images.unsplash.com/photo-1649003515353-c58a239cf662?q=80&w=1740&
 ---
 
 <div class="mb-4">
-  <span class="text-3xl text-primary dark:text-primary" style="font-weight:500;" >Was ist Venture Capital?</span>
+  <span class="text-3xl text-primary dark:text-primary" style="font-weight:500;" >Define: Venture Capital?</span>
 </div>
-We hat davon schon mal gehört?
+Who wants to try?
 
 ---
 
-# Startups != Kleines Unternehmen
+# Definition
+
+Every definition is incorrect, but:
+
+- Venture capital is a form of **private equity financing**
+  - **provided by firms or funds**
+  - to **startup, early-stage, and emerging companies**
+    - that have been deemed to have high growth potential or
+    - that have demonstrated high growth in terms of number of employees, annual revenue, scale of operations, etc.
+
+So:
+
+- Funding for startups
+- Private investors (not everyone can invest)
+- *Could* grow a lot
+
+
+---
+
+# Startups != Small / Medium-Sized Businesses (SMB)
+
+Note: This isn't *my* opinion - that's the view of VCs
 
 <div class="flex gap-5">
   <div class="border rounded-xl basis-1 border-white/50 grow flex flex-col py-3 text-xl">
-    <div class="text-2xl text-primary dark:text-primary px-3 mb-3">Kleines Unternehmen</div>
-    <div v-click=1 class="p2 bg-black/30 px-3">Handwerker, Zahnarzt, EDEKA Filiale, ...</div>
-    <div v-click=2 class="p2 px-3">Businessplan möglich</div>
-    <div v-click=3 class="p2 bg-black/30 px-3">Start von Selbständigkeit</div>
-    <div v-click=4 class="p2 px-3">Ziel: "Job für's Leben"</div>
-    <div v-click=5 class="p2 bg-black/30 px-3">Einkommen, Unabhängigkeit, ...</div>
+    <div class="text-2xl text-primary dark:text-primary px-3 mb-3">SMBs</div>
+    <div v-click=1 class="p2 bg-black/30 px-3">Contractor, Dentist, EDEKA Store, ...</div>
+    <div v-click=2 class="p2 px-3">Clear business plan</div>
+    <div v-click=3 class="p2 bg-black/30 px-3">self-employment</div>
+    <div v-click=4 class="p2 px-3">Goal: "job for life"</div>
+    <div v-click=5 class="p2 bg-black/30 px-3">income, independence, sustainability, ...</div>
   </div>
   <div class="border rounded-xl basis-1 border-white/50 grow flex flex-col py-3 text-xl">
     <div class="text-2xl text-primary dark:text-primary px-3 mb-3">Startup</div>
-    <div v-click=1 class="p2 bg-black/30 px-3">Fluxtaxi (Lillium), GitLab, GPU Cloud, ...</div>
-    <div v-click=2 class="p2 px-3">Product-Market-Fit Unbekannt</div>
-    <div v-click=3 class="p2 bg-black/30 p1 px-3">...mit dem Ziel, sehr viel Geld zu verdienen</div>
-    <div v-click=4 class="p2 px-3">Ziel: Skalieren + Verkaufen</div>
-    <div v-click=5 class="p2 bg-black/30 px-3"> Disruption, Expansion, ...</div>
+    <div v-click=1 class="p2 bg-black/30 px-3">"Flight taxis" (Lillium), B2B SaaS, Biotech,...</div>
+    <div v-click=2 class="p2 px-3">Product-Market-Fit unknown</div>
+    <div v-click=3 class="p2 bg-black/30 p1 px-3">...with the goal to make $$$</div>
+    <div v-click=4 class="p2 px-3">Goal: scale + sell</div>
+    <div v-click=5 class="p2 bg-black/30 px-3"> disruption, market dominance, ...</div>
   </div>
 </div>
 
 <div class="mb-2"></div>
 
-### Anm.: Das ist nicht meine Meinung, sondern die Perspektive von VCs
+---
+layout: center
+---
+
+# Startups try to scale
 
 ---
 layout: center
 ---
 
-# Startups versuchen zu saklieren
+# Necessary goal: finding an infinite money glitch
 
 ---
 layout: center
 ---
 
-# Ziel ist zwingend: Kohle ohne Ende
-
----
-layout: center
----
-
-# Sonst ist es kein Startup.
+# Otherwise, it's not a startup
 
 ---
 
 # Geld
 
-> Global VC investment rose from $349.4 billion across 43,320 deals in 2023 to $368.3 billion across 35,684 deals in 2024
+> Global VC investment rose from **$349.4 billion** across 43,320 deals in 2023 to **$368.3 billion** across 35,684 deals in 2024
 
-Da wurden **313 Milliarden Euro** investiert. Vergleich: Steuereinahmen vom Bund
+In 2024, VC investment was **313bn Euro** in 2024. Comparision: Tax income of the German Federal Government:
 
 ![alt text](./assets/haushalt.png)
 
@@ -200,88 +205,63 @@ ol {
 }
 </style>
 
-1. VCs erstellen "Funds"
-2. Leute investieren in den Fund
-3. Der Fund investiert in Startups
-4. Wenn das Startup verkauft wird: $$$ für Fund
+1. VCs create "funds", a "holding company"
+2. Rich people invest into said funds
+3. Said fund invests into startups
+4. If startup sells: $$$ for the fund
 
 ---
 
-# Beispiel - Spezifischer Fund
+# Example fund: specific purpose
+By a16z, one of the biggest VCs
+
 
 <img src="./assets/a16z.png" class="absolute right-0 top-0 h-20" />
 
 
-<p class="pl-2 text-white/70">
-Die American Dynamism-Praxis investiert in Gründer und Unternehmen, die das nationale Interesse (der USA) unterstützen: Luft- und Raumfahrt, Verteidigung, öffentliche Sicherheit, Bildung, Wohnungswesen, Lieferketten, Industrie und Fertigung. Wir glauben, dass missiongetriebene und zivilgesellschaftlich orientierte Gründer oft Unternehmen aufbauen, die Branchen und Geschäftsmodelle überschreiten, um wichtige nationale Probleme zu lösen. Diese Unternehmen sehen die Regierung als Kunden, Wettbewerber oder wichtigen Stakeholder – und der Erfolg dieser Unternehmen unterstützt das Gedeihen aller Amerikaner. Dynamische Unternehmen existieren in allen 50 Bundesstaaten und haben globale Wirkung.
+
+<p class="pl-2 text-sm">
+The American Dynamism practice invests in founders and companies that support the national interest: aerospace, defense, public safety, education, housing, supply chain, industrials, and manufacturing. We believe that mission-driven and civic-minded founders often build companies that transcend verticals and business models in their quest to solve important national problems. These companies view the government as a customer, competitor, or key stakeholder—and the success of these companies supports the flourishing of all Americans. Dynamic companies exist in all 50 states and have a global impact.
 </p>
 
-<hr>
-
-<p class="pl-2 text-white/70  text-sm">
-Engl. Original: The American Dynamism practice invests in founders and companies that support the national interest: aerospace, defense, public safety, education, housing, supply chain, industrials, and manufacturing. We believe that mission-driven and civic-minded founders often build companies that transcend verticals and business models in their quest to solve important national problems. These companies view the government as a customer, competitor, or key stakeholder—and the success of these companies supports the flourishing of all Americans. Dynamic companies exist in all 50 states and have a global impact.
-</p>
-
-<hr>
 
 ---
 
-# Generische Funds
+# Generic funds
 
-Viele VCs haben keine themenspezifischen Funds, sondern gruppieren z.B. nach Jahr (YCombinator), oder manchmal (afaik) auch gar nicht.
+&nbsp;
+
+Many VCs don't have specialized/purpose-bound funds, but might allow investors to invest by years and geogaphies (afaik TechStars, YCombinator).
+
+Some VCs just have a generic fund, not really bound to a specific purpose or time.
+
+Remember: Lawyers can get very creative.
 
 ---
 
-# Warum
+# Why tho?
 
-Warum investieren die Leute Geld in VCs?
+Why do people invest into VCs?
 
 <img v-click src="./assets/money-mr.gif" class="h-100" />
 
 ---
 
-# So, das hier ist keine Finanzberatung
+# Not financial advice:
 
-Aber schauen wir uns mal eine Exponentialfunktion an:
+But there's a reason VC bros call everything "exponential". Look at this graph:
 
-<img src="./assets/exp.png" class="h-100 invert">
+<img src="./assets/exp.png" class="h-90 invert">
+
+Over ~20 years, insane difference between 10% and 20% growth!
 
 ---
 
-# Womit werben VCs?
+# What do VCs advertise with?
 
 <img src="./assets/performance.png" class="h-100 invert" />
 
 ### https://www.venturecapitai.com/p/25-years-of-outperformance-a-comparative
-
----
-
-# Aber
-
-<img src="./assets/recent_cohorts.png" class="h-100 " />
-
-### https://carta.com/data/recent-vc-fund-performance-q3-2024/
-
----
-
-# Naja
-
-<span></span>
-
-Es gibt jedoch Gründe anzunehmen, dass dieser derzeitige Zustand nicht ewig anhalten wird. Investoren sind der Ansicht, dass die in den vergangenen Jahren eingeworbenen Mittel schließlich als einige der attraktivsten Jahrgänge in der Geschichte des Risikokapitals gelten könnten.
-
-<hr>
-
-There’s reason to think, however, that this current state of affairs won’t last forever. Investors believe that funds raised in the past few years might eventually come to be seen as some of the most attractive vintages in venture capital memory.
-
-
-<div class="pt-25"></div>
-
-<v-click >
-Persönlicher Gedanke (ohne harte Zahlen): In den Jahren war schon sehr viel Crypto / Web3 Investment da.
-
-<p class="text-8xl pt-8" v-click>🤔</p>
-</v-click>
 
 ---
 
@@ -299,9 +279,52 @@ Persönlicher Gedanke (ohne harte Zahlen): In den Jahren war schon sehr viel Cry
 
 ---
 
-# Einhörner
+# Detour: VC does have issues
 
-Was ist ein Einhorn (aus VC perspektive)?
+This is the reason why people invest - but VC does have some struggle recently.
+
+---
+
+# Let's look at Data
+
+<img src="./assets/recent_cohorts.png" class="h-100 invert" />
+
+### https://carta.com/data/recent-vc-fund-performance-q3-2024/
+
+---
+
+# But #2
+
+<img src="./assets/slides/recent_cohorts.png" class="h-100 invert" />
+
+### https://www.saastr.com/carta-smaller-vc-returns-have-fallen-30-or-more-will-ai-boost-them-back/
+
+---
+
+# What do they say?
+
+<span></span>
+
+> There’s reason to think, however, that this current state of affairs won’t last forever. Investors believe that funds raised in the past few years might eventually come to be seen as some of the most attractive vintages in venture capital memory.
+
+-- carta
+
+<div class="pt-15"></div>
+
+<span v-click>
+My personal opinion (without hard numbers): In those years, there's been <i>a lot</i> of Web3/crypto investment.
+</span>
+<p class="text-8xl pt-8 pb-8" v-click="2">🤔</p>
+
+<p v-click="3">I think silicon valley just isn't building what people want lol</p>
+
+
+
+---
+
+# Unicorns
+
+What's a unicorn?
 
 <div class="text-9xl text-center mt-25 flex align-middle justify-center">
  ✨🌈🦄<div style="transform: scaleX(-1)">🌈</div>✨
