@@ -12,6 +12,7 @@
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "monaco-editor": "^0.53.0",
+    "playwright-chromium": "^1.55.0",
     "slidev-theme-light-icons": "^1.0.2",
     "tailwind": "^4.0.0",
     "tailwindcss": "^4.1.13",
