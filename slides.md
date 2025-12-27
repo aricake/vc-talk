@@ -265,59 +265,28 @@ Over ~20 years, insane difference between 10% and 20% growth!
 
 ---
 
-# Leitgedanke von VC investment
+# The ideas of VC investment
 
-- "Startups, als Assetklasse, outperform normale Aktionfonds."
-  - Wenn man in mehrere Fonds investiert, dann ist das Risiko überchaubar
-  - Medium-Risko, Riesen Gewinne.
-  - Und normalos haben nicht wirklich Zugriff darauf
+Note: still not financial advice :)
 
-- Plus: Mann kann sich sogar gut fühlen
-  - Startups schöpfen wert, sie machen die Welt besser
-  - Es ist kein Nullsummenspiel, es muss keine Verlierer geben
-  - Beispiel: Google (Suchmaschine)
+- "Startups, als asset class, outperform most stock portfolios and index funds."
+  - if you invest into multiple vc funds, your risk *tends* to be lower
+    - If you invest in 10 funds, and each fund invests into 25 new companies, you invested into 250 companies -> law of averages applies.
+  - So: medium-risk, high yield, yay!
+  - normal people don't really have access to the funds
 
 ---
 
-# Detour: VC does have issues
+# Ideological advantages
 
-This is the reason why people invest - but VC does have some struggle recently.
+You can feel good about your investment!
 
----
-
-# Let's look at Data
-
-<img src="./assets/recent_cohorts.png" class="h-100 invert" />
-
-### https://carta.com/data/recent-vc-fund-performance-q3-2024/
-
----
-
-# But #2
-
-<img src="./assets/slides/recent_cohorts.png" class="h-100 invert" />
-
-### https://www.saastr.com/carta-smaller-vc-returns-have-fallen-30-or-more-will-ai-boost-them-back/
-
----
-
-# What do they say?
-
-<span></span>
-
-> There’s reason to think, however, that this current state of affairs won’t last forever. Investors believe that funds raised in the past few years might eventually come to be seen as some of the most attractive vintages in venture capital memory.
-
--- carta
-
-<div class="pt-15"></div>
-
-<span v-click>
-My personal opinion (without hard numbers): In those years, there's been <i>a lot</i> of Web3/crypto investment.
-</span>
-<p class="text-8xl pt-8 pb-8" v-click="2">🤔</p>
-
-<p v-click="3">I think silicon valley just isn't building what people want lol</p>
-
+- Startups *create value* (they make the world a better place)
+- It's not a zero-sum game - your wins aren't necessarily someone else's losses
+  - Compare: stock market, every $ you make, someone else loses.
+- Example: Google search
+  - It created more value for the world than Google investors made
+  - "Benefits humanity"
 
 
 ---
