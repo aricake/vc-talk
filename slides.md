@@ -16,7 +16,7 @@ image: https://images.unsplash.com/photo-1659941983952-7a35d58d3189?q=80&w=1740&
     How does VC funding work, actually?
   </span>
   <div class="text-3xl text-white text-opacity-60 font-extralight"  >
-    Or: "Money, money, I like money."
+
   </div>
 
   <div class="text-2xl text-white/60 mt-8">
@@ -61,17 +61,14 @@ src: logos.md
 
 - "I'm not saying that is how it should be - I'm saying that is how it is"
   - The goal is to understand VCs
-
-<br>
-
-- "Clever" != "Ethical"
+  - Default: how do *they* think about things?
 
 <br>
 
 - I'm simplifying *a lot*
   - e.G. SAFE vs. Investment vs. Convertible Note => Who cares?
   - Rule of thumb: if you move more than $10M USD, you're involving lawyers.
-  - Lawyers are just as bad as software engineers at overcomplicating things.
+  - Lawyers are just as capable as devs at overcomplicating things.
 
 ---
 
@@ -86,10 +83,15 @@ ol {
 }
 </style>
 
+Part 1 - Economics of startups
+
 1. What's a startup?
 2. Where does the money come from and go to?
 3. Why? <br>
     a. 🦄
+
+Part 2 - How startups work
+
 4. Product Market Fit
 5. Investment
 6. Why VC funding is so cool*
@@ -193,6 +195,10 @@ In 2024, VC investment was **313bn Euro** in 2024. Comparision: Tax income of th
 <img v-click src="./assets/slides/Frame 4.png" class="absolute left-0 top-0 w-full" />
 <img v-click src="./assets/slides/Frame 5.png" class="absolute left-0 top-0 w-full" />
 <img v-click src="./assets/slides/Frame 6.png" class="absolute left-0 top-0 w-full" />
+
+<!--
+Briefkastenfirma => Holding Company
+-->
 
 ---
 
